@@ -129,3 +129,45 @@ ul {
     font-weight: bold;
     color: #1F2937;
 }
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 50px 80px;
+    margin: 80px 160px;
+}
+
+.action .bold {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action .normal {
+    color: #E5E7EB;
+}
+
+.action p {
+    font-size: 18px;
+    line-height: 6px;
+}
+
+.action button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding: 8px 24px;
+    border: solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 32px;
+    color: #E5E7EB;
+    text-align: center;
+}
