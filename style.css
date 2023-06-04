@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 36px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 24px;
+    list-style: none;
+    padding-right: 18px;
+}
+
+.header-links li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 200px;
+    padding: 64px 120px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.intro-right img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
