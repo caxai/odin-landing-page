@@ -38,14 +38,12 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    gap: 200px;
+    gap: 100px;
     padding: 64px 120px;
 }
 
 .intro-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    max-width: 450px;
 }
 
 .hero-main {
@@ -72,6 +70,42 @@ ul {
 
 .intro-right img {
     display: block;
-    max-width: 100%;
+    width: 500px;
     height: auto;
+}
+
+.info {
+    padding: 16px;
+}
+
+.info-header {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 16px;
+}
+
+.info-content {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-mixed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    max-width: 150px;
+}
+
+.info-mixed img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882F6;
 }
