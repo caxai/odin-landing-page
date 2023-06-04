@@ -109,3 +109,23 @@ ul {
     border-style: solid;
     border-color: #3882F6;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 270px;
+}
+
+.quote cite {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote figcaption {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
